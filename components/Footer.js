@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.left}>
         <Image
-          src="/img/bitcoin.png"
+          src="https://cristhianpabon.github.io/NEXT-CryptoCurrenciesQuote/img/bitcoin.png"
           alt="Bitcoin small logo image"
           width={46}
           height={46}

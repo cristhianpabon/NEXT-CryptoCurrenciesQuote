@@ -7,7 +7,7 @@ const Header = () => {
       <nav className={styles.navbar}>
         <Image
           className={styles.logo}
-          src="/img/bitcoin.png"
+          src="https://cristhianpabon.github.io/NEXT-CryptoCurrenciesQuote/img/bitcoin.png"
           alt="Bitcoin small logo image"
           width={64}
           height={64}
