@@ -1,4 +1,5 @@
 {
+  "homepage": "https://cristhianpabon.github.io/NEXT-CryptoCurrenciesQuote",
   "name": "criptocurrency",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +10,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "gh-pages": "^5.0.0",
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0"
