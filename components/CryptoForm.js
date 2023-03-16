@@ -72,31 +72,3 @@ const CryptoForm = ({ setSelectedData }) => {
 };
 
 export default CryptoForm;
-
-// export async function getStaticProps() {
-//   console.log("criptos2:", arrayCriptos);
-//   try {
-//     const respuesta = await fetch(
-//       "https://min-api.cryptocompare.com/data/top/mktcapfull?limit=20&tsym=USD"
-//     );
-//     const resultado = await respuesta.json();
-//     console.log("resultado:", resultado);
-//     const arrayCriptos = resultado.Data.map((cripto) => {
-//       const objeto = {
-//         id: cripto.CoinInfo.Name,
-//         name: cripto.CoinInfo.FullName,
-//       };
-//       return objeto;
-//     });
-
-//     console.log("criptos2:", arrayCriptos);
-//     return {
-//       props: {
-//         arrayCriptos,
-//         data: true,
-//       },
-//     };
-//   } catch (error) {
-//     console.log(error);
-//   }
-// }

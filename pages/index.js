@@ -60,7 +60,7 @@ export default function Home() {
         </div>
 
         {/* {loading && <p>Cargando..</p>} */}
-        {response.PRICE && <CryptoData data={resultado} />}
+        {response.PRICE && <CryptoData data={response} />}
       </main>
       <Footer />
     </>
