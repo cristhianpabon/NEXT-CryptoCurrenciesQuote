@@ -1,0 +1,51 @@
+.criptoData {
+  padding: 20px;
+}
+
+.data {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.criptocoin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.price {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.price span {
+  color: #ffffff;
+}
+
+.content {
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.content span {
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 975px) {
+  .criptoData {
+    padding: 50px 0px;
+  }
+
+  .data {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
