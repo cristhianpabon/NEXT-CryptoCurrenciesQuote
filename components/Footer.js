@@ -1,12 +1,13 @@
 import styles from "@/styles/Footer.module.css";
 import Image from "next/image";
+import bitcoinImage from "../public/img/bitcoin";
 
 const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.left}>
         <Image
-          src="https://cristhianpabon.github.io/NEXT-CryptoCurrenciesQuote/img/bitcoin.png"
+          src={bitcoinImage}
           alt="Bitcoin small logo image"
           width={46}
           height={46}
