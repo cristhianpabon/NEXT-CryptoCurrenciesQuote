@@ -1,5 +1,6 @@
 import styles from "@/styles/Header.module.css";
 import Image from "next/image";
+import bitcoinImage from "../public/img/bitcoin.png";
 
 const Header = () => {
   return (
@@ -7,7 +8,7 @@ const Header = () => {
       <nav className={styles.navbar}>
         <Image
           className={styles.logo}
-          src="https://cristhianpabon.github.io/NEXT-CryptoCurrenciesQuote/img/bitcoin.png"
+          src={bitcoinImage}
           alt="Bitcoin small logo image"
           width={64}
           height={64}

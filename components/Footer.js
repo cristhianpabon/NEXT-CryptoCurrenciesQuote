@@ -1,6 +1,6 @@
 import styles from "@/styles/Footer.module.css";
 import Image from "next/image";
-import bitcoinImage from "../public/img/bitcoin";
+import bitcoinImage from "../public/img/bitcoin.png";
 
 const Footer = () => {
   return (
